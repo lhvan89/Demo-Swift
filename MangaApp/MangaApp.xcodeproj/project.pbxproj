@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F0ECDB3204B337A00DC3AF3 /* MangaList.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F0ECDB2204B337A00DC3AF3 /* MangaList.json */; };
+		6F0EF198204B312B003F0801 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0EF197204B312B003F0801 /* AppDelegate.swift */; };
+		6F0EF19A204B312B003F0801 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0EF199204B312B003F0801 /* HomeViewController.swift */; };
+		6F0EF19D204B312B003F0801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0EF19B204B312B003F0801 /* Main.storyboard */; };
+		6F0EF19F204B312B003F0801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0EF19E204B312B003F0801 /* Assets.xcassets */; };
+		6F0EF1A2204B312B003F0801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0EF1A0204B312B003F0801 /* LaunchScreen.storyboard */; };
+		6F14A5E6204C008F00A3D3A9 /* MangaDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F14A5E5204C008F00A3D3A9 /* MangaDetailTableViewCell.swift */; };
+		6F1CBA73204B35AE006282B1 /* Manga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CBA72204B35AE006282B1 /* Manga.swift */; };
+		6F1CBA75204B35E5006282B1 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CBA74204B35E5006282B1 /* Constant.swift */; };
+		6F1CBA77204B3659006282B1 /* MangaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CBA76204B3659006282B1 /* MangaDetail.swift */; };
+		6F1CBA79204B3693006282B1 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CBA78204B3693006282B1 /* Chapter.swift */; };
+		6F27D1C4204B66D500E2CBB6 /* MangaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F27D1C3204B66D500E2CBB6 /* MangaCollectionViewCell.swift */; };
+		6F3F9370204B682F000EE0A2 /* Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3F936F204B682F000EE0A2 /* Extenstion.swift */; };
+		6F697B88204BBE2E004E8FA4 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697B87204BBE2E004E8FA4 /* Functions.swift */; };
+		6F697B8A204BBE85004E8FA4 /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697B89204BBE85004E8FA4 /* SwiftNotice.swift */; };
+		6F697B8C204BC2F5004E8FA4 /* MangaSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697B8B204BC2F5004E8FA4 /* MangaSearchViewController.swift */; };
+		6F697B8E204BC36D004E8FA4 /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697B8D204BC36D004E8FA4 /* SearchCollectionViewCell.swift */; };
+		6F697B90204BF4D4004E8FA4 /* MangaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F697B8F204BF4D4004E8FA4 /* MangaDetailViewController.swift */; };
+		6FDD6965204DDB6E00E30D44 /* menuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDD6964204DDB6E00E30D44 /* menuTableViewCell.swift */; };
+		6FDD6969204DE42700E30D44 /* ChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDD6966204DE42700E30D44 /* ChapterViewController.swift */; };
+		6FDD696A204DE42700E30D44 /* ChapterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDD6967204DE42700E30D44 /* ChapterPageViewController.swift */; };
+		6FDD696B204DE42700E30D44 /* MangaChapterHolderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDD6968204DE42700E30D44 /* MangaChapterHolderVC.swift */; };
+		736BF98C43CAB57F5792E32D /* Pods_MangaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DB99BA0A9E2F206DE881751 /* Pods_MangaApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F0ECDB2204B337A00DC3AF3 /* MangaList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MangaList.json; sourceTree = "<group>"; };
+		6F0EF194204B312B003F0801 /* MangaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0EF197204B312B003F0801 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F0EF199204B312B003F0801 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6F0EF19C204B312B003F0801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F0EF19E204B312B003F0801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F0EF1A1204B312B003F0801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F0EF1A3204B312B003F0801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F14A5E5204C008F00A3D3A9 /* MangaDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaDetailTableViewCell.swift; sourceTree = "<group>"; };
+		6F1CBA72204B35AE006282B1 /* Manga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manga.swift; sourceTree = "<group>"; };
+		6F1CBA74204B35E5006282B1 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		6F1CBA76204B3659006282B1 /* MangaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaDetail.swift; sourceTree = "<group>"; };
+		6F1CBA78204B3693006282B1 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		6F27D1C3204B66D500E2CBB6 /* MangaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaCollectionViewCell.swift; sourceTree = "<group>"; };
+		6F3F936F204B682F000EE0A2 /* Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstion.swift; sourceTree = "<group>"; };
+		6F697B87204BBE2E004E8FA4 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		6F697B89204BBE85004E8FA4 /* SwiftNotice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
+		6F697B8B204BC2F5004E8FA4 /* MangaSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaSearchViewController.swift; sourceTree = "<group>"; };
+		6F697B8D204BC36D004E8FA4 /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		6F697B8F204BF4D4004E8FA4 /* MangaDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaDetailViewController.swift; sourceTree = "<group>"; };
+		6FDD6964204DDB6E00E30D44 /* menuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuTableViewCell.swift; sourceTree = "<group>"; };
+		6FDD6966204DE42700E30D44 /* ChapterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterViewController.swift; sourceTree = "<group>"; };
+		6FDD6967204DE42700E30D44 /* ChapterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterPageViewController.swift; sourceTree = "<group>"; };
+		6FDD6968204DE42700E30D44 /* MangaChapterHolderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MangaChapterHolderVC.swift; sourceTree = "<group>"; };
+		7DB99BA0A9E2F206DE881751 /* Pods_MangaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8236D47A2F59778B07CFA799 /* Pods-MangaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MangaApp/Pods-MangaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F04DC6FED8E44A3CDBC87802 /* Pods-MangaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MangaApp/Pods-MangaApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F0EF191204B312B003F0801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736BF98C43CAB57F5792E32D /* Pods_MangaApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F0ECDB1204B333E00DC3AF3 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				6F0ECDB2204B337A00DC3AF3 /* MangaList.json */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		6F0EF18B204B312B003F0801 = {
+			isa = PBXGroup;
+			children = (
+				6F0EF196204B312B003F0801 /* MangaApp */,
+				6F0EF195204B312B003F0801 /* Products */,
+				CD0D173F2DB25AFACC147E73 /* Pods */,
+				7F09917A23A0CA46E11E8875 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F0EF195204B312B003F0801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F0EF194204B312B003F0801 /* MangaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F0EF196204B312B003F0801 /* MangaApp */ = {
+			isa = PBXGroup;
+			children = (
+				6F0ECDB1204B333E00DC3AF3 /* DataStore */,
+				6F0EF1AC204B3164003F0801 /* Controller */,
+				6F0EF1AB204B315D003F0801 /* Views */,
+				6F0EF1AA204B3151003F0801 /* Model */,
+				6F0EF1A9204B313B003F0801 /* Helpers */,
+				6F0EF197204B312B003F0801 /* AppDelegate.swift */,
+				6F0EF19B204B312B003F0801 /* Main.storyboard */,
+				6F0EF19E204B312B003F0801 /* Assets.xcassets */,
+				6F0EF1A0204B312B003F0801 /* LaunchScreen.storyboard */,
+				6F0EF1A3204B312B003F0801 /* Info.plist */,
+			);
+			path = MangaApp;
+			sourceTree = "<group>";
+		};
+		6F0EF1A9204B313B003F0801 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6F1CBA74204B35E5006282B1 /* Constant.swift */,
+				6F3F936F204B682F000EE0A2 /* Extenstion.swift */,
+				6F697B89204BBE85004E8FA4 /* SwiftNotice.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6F0EF1AA204B3151003F0801 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F1CBA72204B35AE006282B1 /* Manga.swift */,
+				6F1CBA76204B3659006282B1 /* MangaDetail.swift */,
+				6F1CBA78204B3693006282B1 /* Chapter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F0EF1AB204B315D003F0801 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6F27D1C0204B661900E2CBB6 /* Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6F0EF1AC204B3164003F0801 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F0EF199204B312B003F0801 /* HomeViewController.swift */,
+				6FDD6967204DE42700E30D44 /* ChapterPageViewController.swift */,
+				6FDD6966204DE42700E30D44 /* ChapterViewController.swift */,
+				6FDD6968204DE42700E30D44 /* MangaChapterHolderVC.swift */,
+				6F697B87204BBE2E004E8FA4 /* Functions.swift */,
+				6F697B8B204BC2F5004E8FA4 /* MangaSearchViewController.swift */,
+				6F697B8F204BF4D4004E8FA4 /* MangaDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6F27D1C0204B661900E2CBB6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6F27D1C3204B66D500E2CBB6 /* MangaCollectionViewCell.swift */,
+				6F697B8D204BC36D004E8FA4 /* SearchCollectionViewCell.swift */,
+				6F14A5E5204C008F00A3D3A9 /* MangaDetailTableViewCell.swift */,
+				6FDD6964204DDB6E00E30D44 /* menuTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7F09917A23A0CA46E11E8875 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DB99BA0A9E2F206DE881751 /* Pods_MangaApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD0D173F2DB25AFACC147E73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8236D47A2F59778B07CFA799 /* Pods-MangaApp.debug.xcconfig */,
+				F04DC6FED8E44A3CDBC87802 /* Pods-MangaApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F0EF193204B312B003F0801 /* MangaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F0EF1A6204B312B003F0801 /* Build configuration list for PBXNativeTarget "MangaApp" */;
+			buildPhases = (
+				FDCE51207920CC7519DCEC72 /* [CP] Check Pods Manifest.lock */,
+				6F0EF190204B312B003F0801 /* Sources */,
+				6F0EF191204B312B003F0801 /* Frameworks */,
+				6F0EF192204B312B003F0801 /* Resources */,
+				F2B4B5B78A60BFD6C7DF3FC3 /* [CP] Embed Pods Frameworks */,
+				868DF7C00506B10BE5CCF3C7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MangaApp;
+			productName = MangaApp;
+			productReference = 6F0EF194204B312B003F0801 /* MangaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F0EF18C204B312B003F0801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lhvan;
+				TargetAttributes = {
+					6F0EF193204B312B003F0801 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6F0EF18F204B312B003F0801 /* Build configuration list for PBXProject "MangaApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F0EF18B204B312B003F0801;
+			productRefGroup = 6F0EF195204B312B003F0801 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F0EF193204B312B003F0801 /* MangaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F0EF192204B312B003F0801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0EF1A2204B312B003F0801 /* LaunchScreen.storyboard in Resources */,
+				6F0EF19F204B312B003F0801 /* Assets.xcassets in Resources */,
+				6F0ECDB3204B337A00DC3AF3 /* MangaList.json in Resources */,
+				6F0EF19D204B312B003F0801 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		868DF7C00506B10BE5CCF3C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MangaApp/Pods-MangaApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2B4B5B78A60BFD6C7DF3FC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MangaApp/Pods-MangaApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MangaApp/Pods-MangaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDCE51207920CC7519DCEC72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MangaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F0EF190204B312B003F0801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1CBA73204B35AE006282B1 /* Manga.swift in Sources */,
+				6F697B90204BF4D4004E8FA4 /* MangaDetailViewController.swift in Sources */,
+				6F697B8C204BC2F5004E8FA4 /* MangaSearchViewController.swift in Sources */,
+				6F697B8E204BC36D004E8FA4 /* SearchCollectionViewCell.swift in Sources */,
+				6F0EF19A204B312B003F0801 /* HomeViewController.swift in Sources */,
+				6FDD696A204DE42700E30D44 /* ChapterPageViewController.swift in Sources */,
+				6F697B88204BBE2E004E8FA4 /* Functions.swift in Sources */,
+				6F697B8A204BBE85004E8FA4 /* SwiftNotice.swift in Sources */,
+				6FDD6965204DDB6E00E30D44 /* menuTableViewCell.swift in Sources */,
+				6F1CBA77204B3659006282B1 /* MangaDetail.swift in Sources */,
+				6F1CBA79204B3693006282B1 /* Chapter.swift in Sources */,
+				6F14A5E6204C008F00A3D3A9 /* MangaDetailTableViewCell.swift in Sources */,
+				6F3F9370204B682F000EE0A2 /* Extenstion.swift in Sources */,
+				6FDD696B204DE42700E30D44 /* MangaChapterHolderVC.swift in Sources */,
+				6FDD6969204DE42700E30D44 /* ChapterViewController.swift in Sources */,
+				6F0EF198204B312B003F0801 /* AppDelegate.swift in Sources */,
+				6F27D1C4204B66D500E2CBB6 /* MangaCollectionViewCell.swift in Sources */,
+				6F1CBA75204B35E5006282B1 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F0EF19B204B312B003F0801 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F0EF19C204B312B003F0801 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F0EF1A0204B312B003F0801 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F0EF1A1204B312B003F0801 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F0EF1A4204B312B003F0801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F0EF1A5204B312B003F0801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F0EF1A7204B312B003F0801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8236D47A2F59778B07CFA799 /* Pods-MangaApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EWV6ACNJ7K;
+				INFOPLIST_FILE = MangaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhvan89.MangaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F0EF1A8204B312B003F0801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F04DC6FED8E44A3CDBC87802 /* Pods-MangaApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EWV6ACNJ7K;
+				INFOPLIST_FILE = MangaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhvan89.MangaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F0EF18F204B312B003F0801 /* Build configuration list for PBXProject "MangaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0EF1A4204B312B003F0801 /* Debug */,
+				6F0EF1A5204B312B003F0801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F0EF1A6204B312B003F0801 /* Build configuration list for PBXNativeTarget "MangaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0EF1A7204B312B003F0801 /* Debug */,
+				6F0EF1A8204B312B003F0801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F0EF18C204B312B003F0801 /* Project object */;
+}

@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Kingfisher (4.6.1)
+  - PageMenu (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - PageMenu
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
+  PageMenu: 9c38fd7e0d9ef4b1408320f55bb907bbc0e538dc
+
+PODFILE CHECKSUM: 957844c99711bf49353270928846dbc479483c02
+
+COCOAPODS: 1.4.0

@@ -22,6 +22,7 @@ class PageCell: UICollectionViewCell {
         }
     }
     
+    
     private let bearImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
